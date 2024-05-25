@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: burlywood;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.blur{
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(10px);
+}
+.container, .modal-container{
+  padding: 10px;
+  background-color: white;
+  color-scheme: black;
+  margin: 20px;
+}
+.modal-container{
+  display: none;
+  position: absolute;
+  top: 100px;
+  left: 0;
+}
+button{
+  margin-top: 10px;
+}
